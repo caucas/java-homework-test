@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/exemple/homework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка">
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.exemple.homework1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.homework1" />
       <module name="java-homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,6 +58,48 @@
       <option name="presentableId" value="Default" />
       <updated>1700926433175</updated>
     </task>
+    <task id="LOCAL-00001" summary="Первая домашка">
+      <option name="closed" value="true" />
+      <created>1700938311944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700938311944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Первая домашка">
+      <option name="closed" value="true" />
+      <created>1700938366378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700938366378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3cf7c387-f54e-4254-9f41-992cf5590e0b" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="3cf7c387-f54e-4254-9f41-992cf5590e0b">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первая домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка" />
   </component>
 </project>
