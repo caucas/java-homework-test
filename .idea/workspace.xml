@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка (чуть исправленная)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework1.java" afterDir="false" />
-    </list>
+    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка (Итоговый вариант )" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700975245966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Первая домашка (Итоговый вариант )">
+      <option name="closed" value="true" />
+      <created>1701012938606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701012938606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +124,7 @@
     <MESSAGE value="Первая домашка" />
     <MESSAGE value="Первая домашка (без комментариев)" />
     <MESSAGE value="Первая домашка (чуть исправленная)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка (чуть исправленная)" />
+    <MESSAGE value="Первая домашка (Итоговый вариант )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка (Итоговый вариант )" />
   </component>
 </project>
