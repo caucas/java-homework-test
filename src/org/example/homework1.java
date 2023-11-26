@@ -10,6 +10,7 @@ public class homework1 {
     public static void ex1() {
         String name = "     ПЕтРов Олег Иванович     ";
         name.trim();
+
         name.toUpperCase();
 
         if (name.contains("ова")) {
@@ -19,8 +20,6 @@ public class homework1 {
         }else {
             System.out.printf("Неизвестное лицо");
         }
-
-
     }
     public static void ex2(){
 
@@ -47,8 +46,10 @@ public class homework1 {
 
         String simply = "this is simply. This is my favorite song.";
         simply = simply.replace("this is", "those are");
+
         simply = simply.replace("This is", "Those are");
-        int indexSimply = simply.lastIndexOf(("o"));
+
+        int indexSimply = simply.indexOf("o", 3);
         System.out.println(indexSimply);
     }
     public static void ex4() {
@@ -62,6 +63,7 @@ public class homework1 {
 
         int sausagePrice = 800;
         int costOfSausageProduction = 0;
+
         if (sausageProduced < 1000) {
             costOfSausageProduction = 412;
         }
@@ -78,6 +80,7 @@ public class homework1 {
 
         int neckPrice = 500;
         int costOfNeckProduction = 0;
+
         if (neckProduced < 500) {
             costOfNeckProduction = 412;
         }
@@ -105,7 +108,6 @@ public class homework1 {
         }if (incomeCompany < 1_000_000) {
             companyProfitWithTax = incomeCompany * 0.08;
         }
-
         double profitAfterTaxes = profitBeforeTaxes - companyProfitWithTax;
         System.out.println(profitAfterTaxes);
     }

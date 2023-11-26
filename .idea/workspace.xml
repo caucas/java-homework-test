@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка">
+    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка (без комментариев)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/example/homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700938366378</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Первая домашка (без комментариев)">
+      <option name="closed" value="true" />
+      <created>1700939143219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700939143219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первая домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка" />
+    <MESSAGE value="Первая домашка (без комментариев)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка (без комментариев)" />
   </component>
 </project>
