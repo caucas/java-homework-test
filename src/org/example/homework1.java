@@ -106,7 +106,7 @@ public class homework1 {
         }else if (incomeCompany < 1_000_000) {
             incomeTax = incomeCompany * 0.08;
         }
-        //Прибыль после вычета налогов
+        //Прибыль после вычета налогов.
         double profitAfterTaxes = profitBeforeTaxes - incomeTax;
         System.out.println(profitAfterTaxes);
     }
