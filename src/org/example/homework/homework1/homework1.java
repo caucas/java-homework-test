@@ -1,4 +1,4 @@
-package org.example;
+package org.example.homework.homework1;
 
 public class homework1 {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class homework1 {
         ex3();
         ex4();
     }
+
     public static void ex1() {
         String name = "     ПЕтРов Олег Иванович     ";
         name = name.trim();
@@ -21,6 +22,7 @@ public class homework1 {
             System.out.println("Неизвестное лицо");
         }
     }
+
     public static void ex2(){
 
         double fuel = 11;
@@ -40,6 +42,7 @@ public class homework1 {
             System.out.println("\nМашина не работает");
         }
     }
+
     public static void ex3(){
 
         String simply = "this is simply. This is my favorite song.";
@@ -51,6 +54,7 @@ public class homework1 {
         int indexSimply = simply.indexOf("o", 3);
         System.out.println(indexSimply);
     }
+
     public static void ex4() {
         //Сколько произведение
         int sausageProduced = 2000;
