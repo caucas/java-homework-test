@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Первая домашка (Итоговый вариант)">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Office.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Вторая домашка (Итоговый вариант)">
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Workers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework1/homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/office/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework2/shop/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701013194260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Вторая домашка (Итоговый вариант)">
+      <option name="closed" value="true" />
+      <created>1701887220346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701887220346</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +192,8 @@
     <MESSAGE value="Первая домашка (чуть исправленная)" />
     <MESSAGE value="Первая домашка (Итоговый вариант )" />
     <MESSAGE value="Первая домашка (Итоговый вариант)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая домашка (Итоговый вариант)" />
+    <MESSAGE value="Вторая домашка (Итоговый вариант)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вторая домашка (Итоговый вариант)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

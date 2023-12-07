@@ -1,42 +1,40 @@
 package org.example.homework.homework2.office;
 
+import org.example.homework.homework2.shop.Worker;
+
 public class Office {
-    String officeBossName;
-    String managerName;
-    String secretaryName;
-    String guardName;
+    Workers[] officeWorkers;
 
-    public Office(String officeBossName, String managerName,
-                  String secretaryName, String guardName) {
-        this.officeBossName = officeBossName;
-        this.managerName = managerName;
-        this.secretaryName = secretaryName;
-        this.guardName = guardName;
+    public Office(Workers[] officeWorkers) {
+        this.officeWorkers = officeWorkers;
     }
 
-    public void officeBoss() {
-        System.out.println(managerName + " Быстрее!");
+    public void bossMotivation() {
+        System.out.println(officeWorkers[1].workersName + " быстрее!");
     }
 
-    public void manager() {
-        System.out.println(managerName + " Кричит: я ничего не успеваю, помогите!");
+    public void managerAskHelp() {
+        System.out.println("Я ничего не успеваю, помогите!");
     }
 
-    public void secretary() {
-        System.out.println(officeBossName + " не волнуйтесь " + managerName
-                + " все успеет. " + guardName + " - Подождите!");
+    public void guardAskAvance() {
+        System.out.println("Дайте аванс пожалуйста");
     }
 
-    public void guardName() {
-        System.out.println(officeBossName + " я конечно все понимаю, но где мой аванс?");
+    public void secretarySpeaks() {
+        //for (Workers worker : officeWorkers)
+        System.out.println(officeWorkers[0].workersName + " Не волнуйтесь, "
+                + officeWorkers[1].workersName + " Все успеет. "
+                + officeWorkers[2].workersName + " - подождите!");
     }
-
 
     public void workDay() {
-        System.out.println(officeBossName + ": " + managerName + " Быстрее!");
-        System.out.println(managerName + " Кричит: я ничего не успеваю, помогите!");
-        System.out.println(secretaryName + ": " + officeBossName + " не волнуйтесь " + managerName
-                + " все успеет. " + guardName + " - Подождите!");
-        System.out.println(guardName + ": " + officeBossName + " я конечно все понимаю, но где мой аванс?");
+        System.out.println(officeWorkers[0].workersName + ": "
+                + officeWorkers[1].workersName + " быстрее!");
+        System.out.println(officeWorkers[1].workersName + ": " + "Я ничего не успеваю, помогите!");
+        System.out.println(officeWorkers[0].workersName + ": " + "Дайте аванс пожалуйста");
+        System.out.println(officeWorkers[3].workersName + ": " + officeWorkers[0].workersName
+                + " не волнуйтесь, " + officeWorkers[1].workersName + " все успеет. "
+                + officeWorkers[2].workersName + " - подождите!");
     }
 }

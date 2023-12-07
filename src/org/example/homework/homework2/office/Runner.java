@@ -1,18 +1,18 @@
 package org.example.homework.homework2.office;
 
-import java.util.Arrays;
-
 public class Runner {
     public static void main(String[] args) {
-        Office officeWorkers = new Office("Petr Nicolaevich",
-                "Voloda", null, "Petrovich");
+        Workers officeBoss = new Workers("Петр Николаевич");
+        Workers manager = new Workers("Володя");
+        Workers guard = new Workers("Петрович");
+        Workers secretary = new Workers(null);
+        Workers[] officeWorkers = new Workers[]{officeBoss, manager, guard, secretary};
+        Office workersMassive = new Office(officeWorkers);
 
-        officeWorkers.officeBoss();
-        officeWorkers.manager();
-        officeWorkers.secretary();
-        officeWorkers.guardName();
-        System.out.println("\n");
-        officeWorkers.workDay();
-
+        //workersMassive.bossMotivation();
+        //workersMassive.managerAskHelp();
+        //workersMassive.guardAskAvance();
+        //workersMassive.secretarySpeaks();
+        workersMassive.workDay();
     }
 }

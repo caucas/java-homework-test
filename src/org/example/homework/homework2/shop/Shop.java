@@ -1,7 +1,5 @@
 package org.example.homework.homework2.shop;
 
-import java.util.Arrays;
-
 public class Shop {
     Worker[] shopWorkers;
 
