@@ -11,8 +11,5 @@ public class Birch extends Deciduous {
     @Override
     public void leavesOnTree() {
         super.leavesOnTree();
-        if (leavesOnTree == true) {
-            System.out.println("источает аллергены");
-        }
     }
 }

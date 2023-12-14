@@ -4,27 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="Вторая домашка (Итоговый вариант. Исправленная)">
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/PhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/lotbillet/LotteryTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/pyramid/Piramid1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/pyramid/Piramid2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/pyramid/Piramid3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/pyramid/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Birch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Conifers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Deciduous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Pine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Spruce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Tree.java" afterDir="false" />
+    <list default="true" id="71c24c03-c33f-49b8-99b7-caed302c6dbc" name="Changes" comment="3. (Не готово)">
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Os.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/Homework3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/PhoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/PhoneFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/factory/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/ex2/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Birch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Birch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Deciduous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Deciduous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Spruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/homework/homework3/tree/Spruce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,7 @@
     "Application.Homework3.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.homework1.executor": "Run",
+    "Application.org.example.homework.homework3.ex2.Runner.executor": "Run",
     "Application.org.example.homework.homework3.factory.Runner.executor": "Run",
     "Application.org.example.homework.homework3.pyramid.Runner.executor": "Run",
     "Application.org.example.homework.homework3.tree.Runner.executor": "Run",
@@ -127,10 +122,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.homework.homework3.tree.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homework.homework3.tree.Runner" />
+      <module name="java-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.homework.homework3.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.org.example.homework.homework3.tree.Runner" />
         <item itemvalue="Application.homework1" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.org.example.homework.homework3.pyramid.Runner" />
       </list>
     </recent_temporary>
@@ -223,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701967526530</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="3. (Не готово)">
+      <option name="closed" value="true" />
+      <created>1702312096876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702312096876</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +272,8 @@
     <MESSAGE value="Первая домашка (Итоговый вариант)" />
     <MESSAGE value="Вторая домашка (Итоговый вариант)" />
     <MESSAGE value="Вторая домашка (Итоговый вариант. Исправленная)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вторая домашка (Итоговый вариант. Исправленная)" />
+    <MESSAGE value="3. (Не готово)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. (Не готово)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

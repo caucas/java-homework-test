@@ -12,10 +12,9 @@ public abstract class Deciduous extends Tree {
 
     public void leavesOnTree() {
         if (leavesOnTree == true) {
-            System.out.println("есть листья на дереве сейчас");
+            System.out.println("есть листья на дереве сейчас, истояют аллергены");
         } else {
             System.out.println("лиcтьев нет");
-
         }
     }
 }

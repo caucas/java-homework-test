@@ -1,6 +1,6 @@
 package org.example.homework.homework3;
 
-import org.example.homework.homework3.factory.*;
+import org.example.homework.homework3.ex2.*;
 import org.example.homework.homework3.pyramid.Piramid1;
 import org.example.homework.homework3.pyramid.Piramid2;
 import org.example.homework.homework3.pyramid.Piramid3;
@@ -35,34 +35,13 @@ public class Homework3 {
     }
 
     public static void ex2() {
-//        assemblerSamsung.assemblingSamsung(galaxy, "Android", motherboard, "20x zoom");
-//        assemblerSamsung.assemblingSamsung(model15, "Ios", motherboard, "15x zoom");
-        //Задача: Фабрика телефонов
-        //Создать 2 типа телефонов и комплектующих к ним.
-        //При печати телефона должны показываться все свойства телефона и вложенных объектов.
-        //1 тип: Samsung galaxy. Имеет операционную систему Android, плату j-108(размер (ширина Х длина Х высота) 10х12х13),
-        //камеру Samsung(20x zoom).
-        //2 Тип: Iphone 15. Имеет операционную систему Ios, плату 7uik(размер 15х12х13),
-        //камеру iphone(15x zoom, есть вспышка
-        //
-        //Создать фабрику, которая заполняет созданный телефон деталями
-        //        //При создании телефона в нем нет комплектующих, как будто пустой пластиковый каркас,
-        //но при этом модель телефона уже есть.
-        //
-        //
-        //В фабрике должно быть два публичных метода с одним названием:
-        //один будет собирать iphone, второй будет собирать samsung.
-        //В данном методе создать два телефона, собрать их, распечатать.
-        Iphone model15 = new Iphone("15");
-        Samsung galaxy = new Samsung("galaxy");
+        Samsung samsung = new Samsung("galaxy");
+        Iphone iphone = new Iphone(15);
         PhoneFactory factory = new PhoneFactory();
-        Motherboard motherboardSamsung = new Motherboard("j-108", "10х12х13");
-        Motherboard motherboardIphone = new Motherboard("7uik", "15х12х13");
-        Motherboard[] motherboards = new Motherboard[]{motherboardIphone, motherboardSamsung};
-        for (Motherboard motherboard : motherboards) {
-            factory.assemblingSamsung(galaxy, "Android", motherboard, "20x zoom");
-            factory.assemblingSamsung(model15, "Ios", motherboard, "15x zoom");
-        }
+        factory.assemblingPhone(samsung);
+        factory.assemblingPhone(iphone);
+        System.out.println(samsung);
+        System.out.println(iphone);
 
     }
 
